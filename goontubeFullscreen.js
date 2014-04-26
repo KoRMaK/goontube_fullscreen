@@ -121,16 +121,20 @@ gtfo.adjustStyles = function adjustStyles() {
   var chatId = gtfo.getChatId();
   chatId.style.width = "93%";
   chatId.style.height = "90%";
+  /*
+    chatList.style.width = "80%";
+  chatList.style.height = "70%";
+  */
 
   var chatList = document.getElementById("chat_list");
-  chatList.style.width = "100%";
+  chatList.style.width = "107%";
   chatList.style.height = "100%";
   chatList.style.backgroundColor = "#E6E6E6";
 
   var chatInput = document.getElementById("cin");
   chatInput.style.width = "100%";
   chatInput.style.margin = 0;
-  chatInput.style.top = "101%";
+  chatInput.style.top = "104%";
 
   var controls = gtfo.getControls();
   controls.style.position = "relative";
